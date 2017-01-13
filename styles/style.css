@@ -53,3 +53,8 @@ li a:hover {
 .active {
     background-color: #362749;
 }
+
+.grid {
+    padding: 0;
+    margin: 10px;
+}
