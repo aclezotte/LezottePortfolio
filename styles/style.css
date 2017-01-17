@@ -24,7 +24,7 @@ header {
     overflow: hidden;
 }
 
-ul {
+#nav {
     list-style-type:none;
     margin: 0;
     padding: 0;
@@ -33,12 +33,12 @@ ul {
     height: 40px;
 }
 
-li {
+#nav li {
     float: left;
     width: 33.3%;
 }
 
-li a {
+#nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -46,7 +46,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+#nav li a:hover {
     background-color: #6614D3;
 }
 
