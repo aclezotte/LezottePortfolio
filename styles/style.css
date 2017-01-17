@@ -55,6 +55,7 @@ li a:hover {
 }
 
 .grid {
-    padding: 0;
-    margin: 10px;
+    display: block;
+    float: left;
+    margin: 30px;
 }
