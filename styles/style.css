@@ -118,6 +118,7 @@ ol, blockquote {
     overflow: hidden;
     width: 80px;
     text-align: center;
+    clear: both;
 }
 
 .dropbtn {
