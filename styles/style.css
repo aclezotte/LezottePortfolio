@@ -101,3 +101,7 @@ input[type=submit]:hover {
 label, h2, h3 {
     margin: 8px;
 }
+
+ol, blockquote {
+    margin-left: 30px
+}
