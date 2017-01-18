@@ -69,3 +69,35 @@ body {
     border-radius: 25px;
     border: 3px solid #362749;
 }
+
+input{
+    width: 200px;
+    padding: 5px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 1px solid #362749;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    padding: 5px 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 1px solid #362749;
+    border-radius: 2px;
+}
+
+input[type=submit] {
+    background-color: #1C053A;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #362749;
+}
+
+label, h2, h3 {
+    margin: 8px;
+}
