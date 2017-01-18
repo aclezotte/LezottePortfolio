@@ -9,19 +9,24 @@ body {
     margin: auto;
 }
 
-h1 {
-    font-family: sans-serif;
-    font-size: 80px;
-    text-align: center;
-    color: white;
-    margin: 54px auto 0;
+.opacity-container {
+    position: relative;
+    overflow:hidden;
 }
 
-header {
-    background-image: url("../images/detroitskylineresized.jpg");
-    background-repeat: no-repeat;    
-    height: 190px;
-    overflow: hidden;
+.opacity-container h1 {
+    padding: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.opacity-container img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
 }
 
 #nav {
