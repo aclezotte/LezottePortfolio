@@ -4,6 +4,7 @@
         <title>Adam Lezotte's Portfolio</title>
         <link rel="stylesheet" href="styles/style.css" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <script type="text/javascript" src="scripts/script.js"></script>
     </head>
     <body>
         <header>
@@ -11,11 +12,19 @@
                 <h1>Adam Lezotte</h1>
                 <img src="images/detroitskylineresized.jpg">
             </div>
-            <ul id="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!--<ul id="nav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
+            </ul>-->
         </header>
         <section>
             <h2>About Me</h2>
