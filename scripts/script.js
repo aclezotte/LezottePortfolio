@@ -1,4 +1,4 @@
-function myFunction() {
+function expandMenu() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -14,4 +14,9 @@ window.onclick = function(event) {
       }
     }
   }
+};
+
+function shout(form) {
+  var testVar = form.shoutbox.value.toUpperCase();
+  form.shoutbox.value = testVar + "!!!";
 }

@@ -13,7 +13,7 @@
                 <img src="images/detroitskylineresized.jpg">
             </div>
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Menu</button>
+                <button onclick="expandMenu()" class="dropbtn">Menu</button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="index.html">Home</a>
                     <a href="about.html">About</a>
@@ -36,6 +36,14 @@
                 <p><label for="comments">Comments</label></p>
                 <p><textarea name="comments" id="comments"></textarea></p>
                 <p><input type="submit" value="Submit"></p>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <form name="shoutform" action="" method="get">
+                <label for="shoutbox">Type in this box:</label>
+                <input type="text" name="shoutbox" id="shoutbox" value="">
+                <input type="button" name="button" value="Make this shouty!" onClick="shout(this.form)">
             </form>
         </section>
     </body>
